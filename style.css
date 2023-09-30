@@ -1,0 +1,391 @@
+html {
+  height: 100%;
+  
+}
+body {
+    font-size: 15pt;
+    background: #0F172A;
+    overflow-: hidden;
+    margin: 0;
+    height: 100%;
+    
+    
+}
+div {
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+ font-family: "GFF Devanagari";
+ src: url("GFFDevanagari.woff2") format("woff2"),
+  url("GFFDevanagari.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+.header {
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  margin: 0;
+  margin-top: 5%;
+  font-size: 300%;
+}
+.paragraph {
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  margin: 0;
+  
+}
+.img {
+  width: 90%;
+  margin-top: 5%;
+  margin: 0px;
+  padding: 0px;
+  transition: all 500ms ease;
+}
+.imsjjsjdh {
+  width: 90%;
+  margin-top: 5%;
+  margin: 0px;
+  padding: 0px;
+  filter: blur(0px);
+  transition: all 500ms ease;
+}
+.img2 {
+  width: 35%;
+  margin: 0px;
+  margin-top: 3%;
+  margin-left: 3%;
+  padding: 0px;
+  
+}
+.pp2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  font-size: 150%;
+  margin-top: 3%;
+}
+.png {
+  width: 10%;
+  margin-top: 20%;
+  transition: all 250ms ease;
+}
+.footer {
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  font-size: 80%;
+  margin-top: 3%;
+}
+.footer2 {
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  font-size: 80%;
+  margin-bottom: 5%;
+}
+.skjsjdjdjx {
+  margin-top: 10%;
+  background: #111B32;
+  border-radius: 10px;
+  border: 1px #26324E double;
+}
+.fidndjdjd {
+  
+  background: #111B32;
+  border-radius: 10px;
+  border: 1px #26324E double;
+  
+}
+h1 {
+  text-align: center;
+}
+.name {
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  font-size: 80%;
+}
+.sidndnd {
+  width: 10%;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  border-radius: 10px;
+  margin-right: 2%;
+  transition: all 500ms ease;
+}
+.maindialogbg {
+  height: 100%;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.9);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  visibility: hidden;
+  touch-action: none;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pngzjznsn:hover {
+  width: 100%;
+  margin-top: 5%;
+  margin: 0px;
+  padding: 0px;
+  filter: grayscale(100%);
+}
+#wjdjdnnd:hover {
+  width: 100%;
+  margin-top: 5%;
+  margin: 0px;
+  padding: 0px;
+}
+.wjsjhs {
+  background: #253251;
+  height: auto;
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.button {
+  font-family: "GFF Devanagari";
+  background: #C7D7FF;
+  font-size: 80%;
+  width: 50%;
+  border: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  transition: all 250ms ease;
+}
+.djdndn {
+  color: #C7D7FF;
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  font-size: 150%;
+}
+.button:hover {
+  background: #5C75B3;
+  color: #C7D7FF;
+  border: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+@keyframes dialog1hide{
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes dialog1show{
+  from {
+    opacity: 0;
+    visibility: visible;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.kdjdjdjs {
+  height: 100%;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.9);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  visibility: hidden;
+  touch-action: none;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skjsnjdjj{
+  font-family: "GFF Devanagari";
+  background: #C7D7FF;
+  font-size: 80%;
+  width: 100%;
+  border: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  transition: all 250ms ease;
+}
+.skjsnjdjj:hover {
+  background: #5C75B3;
+  color: #C7D7FF;
+  border: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.png:hover {
+  width: 13%;
+  margin-top: 20%;
+  filter: grayscale(100%);
+}
+.jcudjdbd {
+  height: 100%;
+  width: 100%;
+  background: rgba(15, 23, 42, 1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  visibility: visible;
+  touch-action: none;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sjjshdhd {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes jdjhdnd{
+  0% {opacity: 0}
+  50%{opacity: 1}
+  100%{opacity: 1}
+}
+.dkdjdj {
+  width: 30%;
+}
+.ejeijej{
+  display: flex;
+  align-items: center;
+}
+.yyfyfbyh{
+  width: 10%;
+  margin-left: 46%;
+  margin-top: 3%;
+}
+.jusjxjhh{
+  height: 100%;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.9);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  visibility: hidden;
+  touch-action: none;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+.header:after {
+  content: "JINXX6_6" !important;
+}
+#ejushsj:after {
+  content: "Craftland Creator" !important;}
+  
+  #jdidjdn:after {
+    content: "Popular map" !important;
+  }
+#isjsjsh:after {
+  content: "Cloud pierce"!important;
+}
+#dkisjdj:after {
+  content: "Lucifer" !important;
+}
+.pp2:after {
+  content: "Other craftland creators" !important;
+}
+#jsidhdh:after {
+  content: "Unnamed" !important;
+}
+.footer:after {
+  content: "CREATED BY JINXX6_6 ️💚" !important; 
+}
+.footer2:after {
+  content: "Version 1.4 beta not responsible layout" !important;
+}
+.djdidj {
+  margin: 0px;
+  padding: 0px;
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  font-size: 150%;
+  margin-top: 3%;
+}
+.jdidhdh {
+  margin-top: 5%;
+  background: #111B32;
+  border-radius: 10px;
+  border: 1px #26324E double;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.kxisjdnd {
+  margin: 0px;
+  padding: 0px;
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  font-size: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: #1A2A4E;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  transition: all 250ms ease;
+}
+.kdidjdjdj {
+  padding: 0px;
+  font-family: "GFF Devanagari";
+  color: #6E7584;
+  font-size: 100%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  background: #1A2A4E;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+}
+.kxisjdnd:hover {
+  color: #1A2A4E;
+  font-size: 105%;
+  background: #C7D7FF;
+}
+
+h1 {
+  user-select: none;
+ -moz-user-select: none;
+ -webkit-text-select: none;
+ -webkit-user-select: none;
+}
+  .kxisjdnd {
+    font-size: 80% !important;
+  }
+  .kdidjdjdj {
+    font-size: 80% !important;
+  }
+  
+  
