@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0F172A;
+  font-family: "GFF Devanagari";
+  
+ 
+}
+@font-face {
+ font-family: "GFF Devanagari";
+ src: url("GFFDevanagari.woff2") format("woff2"),
+  url("GFFDevanagari.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+#main_container{
+  margin-top: 5%;
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+}
+.photo {
+  perspective: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+
+  .kxisjdnd {
+    font-size: 80% !important;
+  }
+  .kdidjdjdj {
+    font-size: 80% !important;
+  }
+  .header:after {
+  content: "TOP" !important;
+}
+#ejushsj:after {
+  content: "ALL TOP ID LIST" !important;}
+  
+  .header {
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  margin: 0;
+  margin-top: 5%;
+  font-size: 300%;
+
+}
+.paragraph {
+  font-family: "GFF Devanagari";
+  color: #C7D7FF;
+  margin: 0;
+  
+}
+
+#ndjhdb{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.jcudjdbd {
+  height: 100%;
+  width: 100%;
+  background: rgba(15, 23, 42, 1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  touch-action: none;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sjjshdhd {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  justify-content: center;
+  align-items: center;
+}
+.dkdjdj {
+  width: 30%;
+}
+@keyframes dialog1hide{
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.neuxbdbshb {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
