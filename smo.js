@@ -160,7 +160,7 @@ timeline1.to("#jsidhdh", {
 
 
 function emote() {
-	window.location.href = "/emote.html";
+	window.location.href = "/Craftland/emote.html";
 }
 document.addEventListener("contextmenu", function(e) {
 	e.preventDefault();
