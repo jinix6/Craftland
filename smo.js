@@ -196,3 +196,4 @@ function t() {
 		onClick: function() {} // Callback after click
 	}).showToast();
 }
+document.getElementById("kdkdjzj").style.animation ="dialog1show 250ms 1 forwards";
