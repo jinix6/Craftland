@@ -1,5 +1,21 @@
+
 function c(t){
-navigator.clipboard.writeText(t);
+  if (t == "0000") {
+    Toastify({
+  text: "Item id Error",
+  duration: 3000,
+  close: true,
+  gravity: "top",
+  position: "left",
+  style: {
+    background: "linear-gradient(to right, #2A0F0F, #0F172A",
+  },
+  onClick: function(){} // Callback after click
+}).showToast();
+  } else {
+    navigator.clipboard.writeText(t);
+  }
+
 };
 const scroller = new LocomotiveScroll({
     el: document.querySelector('.container'),
@@ -95,14 +111,14 @@ animationTimelin.to("#ndjhdb", {
  
    animationTimelin.to("#ndjhdb", {
       ease: "power1.inOut",
-      opacity: 0.3,
+      opacity: 0.2,
       scale: 10,
      top: "50%",
      duration: 10,
       
    });
    animationTimelin.to("#ndjhdb", {
-       opacity: 0.5,
+       opacity: 0.2,
        scale: 5,
        ease: "power1.inOut",
        top: "50%",
@@ -111,7 +127,7 @@ animationTimelin.to("#ndjhdb", {
    });
    
    animationTimelin.to("#ndjhdb", {
-     opacity: 0.5,
+     opacity: 0.2,
      scale: 5,
      ease: "power1.inOut",
      left: "200%",
@@ -135,3 +151,10 @@ animationTimelin.to("#ndjhdb", {
    
    document.getElementById("nxidndnd").style.animation ="dialog1hide 250ms 1 forwards";
  }
+ 
+ function home(){
+   window.location.href = "/Craftland";
+ }
+ document.addEventListener("contextmenu", function(e) {
+   e.preventDefault();
+ });
