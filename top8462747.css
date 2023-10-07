@@ -40,6 +40,10 @@ img {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 0px 10px 0px #000000;
+    aspect-ratio: 4/5;
+  background: url("troll load.png") no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
   .kxisjdnd {
