@@ -5,7 +5,7 @@ function c(t) {
     .then(data => {
       if (data.result.length > 0) {
        const chatId = data.result[0].message.chat.id;
-                        alert(`Your Chat ID is: ${chatId}`);
+                    
        
         ttysg ="'" + "```" + t + "```" + "'" + " (Click On The Item Id To Copy)"
         nduzb = "*Item Id:- *"
