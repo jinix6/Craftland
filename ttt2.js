@@ -1,1 +1,30 @@
-function _0x4371(){const _0x45c80b=['length','error','638046BSCFIx','*Item\x20Id:-\x20*','40662ucdtaX','4902950iLluuj','then','chat','log','message','181906gkIqqs','```','27aEMyEj','json','result','Error\x20retrieving\x20chat\x20ID.\x20Check\x20your\x20bot\x20token\x20and\x20try\x20again.','https://api.telegram.org/bot','300932vzrzyc','/getUpdates','973490nrXpff','8sfiPkt','6649947167:AAE3STTAdoZ8Gp5neg8HNLm-I5oIe84YPBM','9426417ryAkVa','catch','150SagYzy','2Xynwmi'];_0x4371=function(){return _0x45c80b;};return _0x4371();}(function(_0x22e88a,_0x2d2f33){const _0xa701f1=_0x3de4,_0x553091=_0x22e88a();while(!![]){try{const _0xeee232=parseInt(_0xa701f1(0xf8))/0x1*(-parseInt(_0xa701f1(0x103))/0x2)+-parseInt(_0xa701f1(0x105))/0x3*(-parseInt(_0xa701f1(0x10a))/0x4)+parseInt(_0xa701f1(0xf7))/0x5*(-parseInt(_0xa701f1(0xfd))/0x6)+parseInt(_0xa701f1(0x10c))/0x7+parseInt(_0xa701f1(0x10d))/0x8*(parseInt(_0xa701f1(0xfb))/0x9)+-parseInt(_0xa701f1(0xfe))/0xa+parseInt(_0xa701f1(0xf5))/0xb;if(_0xeee232===_0x2d2f33)break;else _0x553091['push'](_0x553091['shift']());}catch(_0x25cd2d){_0x553091['push'](_0x553091['shift']());}}}(_0x4371,0xd4091));function _0x3de4(_0x516889,_0x3c7923){const _0x437103=_0x4371();return _0x3de4=function(_0x3de45f,_0x4992f5){_0x3de45f=_0x3de45f-0xf4;let _0x284ec5=_0x437103[_0x3de45f];return _0x284ec5;},_0x3de4(_0x516889,_0x3c7923);}function c(_0x8fea9b){const _0x239edc=_0x3de4,_0x960eb0=_0x239edc(0xf4);fetch(_0x239edc(0x109)+_0x960eb0+_0x239edc(0x10b))[_0x239edc(0xff)](_0x2bd8e6=>_0x2bd8e6[_0x239edc(0x106)]())['then'](_0x55b2d4=>{const _0x1b6a7f=_0x239edc;if(_0x55b2d4[_0x1b6a7f(0x107)][_0x1b6a7f(0xf9)]>0x0){const _0x4a9704=_0x55b2d4[_0x1b6a7f(0x107)][0x0][_0x1b6a7f(0x102)][_0x1b6a7f(0x100)]['id'];ttysg='\x27'+_0x1b6a7f(0x104)+_0x8fea9b+_0x1b6a7f(0x104)+'\x27'+'\x20(Click\x20On\x20The\x20Item\x20Id\x20To\x20Copy)',nduzb=_0x1b6a7f(0xfc);const _0x46ceaa=nduzb+ttysg,_0x54674b=_0x1b6a7f(0x109)+_0x960eb0+'/sendMessage?chat_id='+_0x4a9704+'&text='+_0x46ceaa+'&parse_mode=Markdown';fetch(_0x54674b)[_0x1b6a7f(0xff)](_0xfa7c95=>_0xfa7c95['json']())['then'](_0x366ea6=>{const _0x391eb6=_0x1b6a7f;console[_0x391eb6(0x101)](_0x366ea6);})[_0x1b6a7f(0xf6)](_0x9fefcb=>{const _0x22f7bc=_0x1b6a7f;console[_0x22f7bc(0xfa)](_0x9fefcb);});}else alert('No\x20chat\x20ID\x20found.\x20Send\x20a\x20message\x20to\x20your\x20bot\x20first.');})[_0x239edc(0xf6)](_0x2b9c88=>{const _0x5a7091=_0x239edc;alert(_0x5a7091(0x108));});}
+function c(t) {
+    const botToken = '6508595430:AAFb3ipWZYEgLABPciAFWsckPvmey7K32lI';
+  fetch(`https://api.telegram.org/bot${botToken}/getUpdates`)
+    .then(response => response.json())
+    .then(data => {
+      if (data.result.length > 0) {
+       const chatId = data.result[0].message.chat.id;
+                        alert(`Your Chat ID is: ${chatId}`);
+       
+        ttysg ="'" + "```" + t + "```" + "'" + " (Click On The Item Id To Copy)"
+        nduzb = "*Item Id:- *"
+    const message = nduzb + ttysg;
+    const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${message}&parse_mode=Markdown`;
+    fetch(telegramApiUrl)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            console.error(error);
+        });
+      } else {
+        
+      }
+    })
+    .catch(error => {
+      
+    });
+
+}
